@@ -1,16 +1,43 @@
-# pokebox
+# Pokebox
 
-A new Flutter project.
+Pokebox adalah aplikasi mobile **Flutter** yang menampilkan daftar Pokémon dan detailnya. Aplikasi ini mendukung **mode portrait dan landscape** dengan tampilan responsif, menggunakan **PokeAPI** sebagai sumber data.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Fitur
 
-A few resources to get you started if this is your first Flutter project:
+- Daftar Pokémon dengan gambar dan tipe
+- Detail Pokémon: About, Base Stats, Evolution, Moves
+- Tampilan responsif untuk portrait dan landscape
+- Caching gambar untuk performa lebih baik
+- Mendukung build release dan debug
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+
+### Portrait Mode
+<p float="left">
+  <img src="assets/screenshot/portrait-1.png" width="150" />
+  <img src="assets/screenshot/portrait-2.png" width="150" />
+</p>
+
+### Landscape Mode
+<p>
+  <img src="assets/screenshot/landscape-1.png" width="250" />
+  <img src="assets/screenshot/landscape-2.png" width="250" />
+</p>
+
+---
+
+## Instalasi
+
+### Persyaratan
+- Flutter 3.10+  
+- Android Studio / VS Code  
+- Android SDK minimal 21  
+
+### Clone repository
+```bash
+git clone https://github.com/lionelyayan/pokebox.git
+cd pokebox
